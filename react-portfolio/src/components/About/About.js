@@ -3,16 +3,22 @@ import React from "react";
 function About() {
     return (
         <div>
-            <h1>Pupster</h1>
-            <h2>They're the Good Boys and Girls</h2>
-            <h1>Welcome to Pupster</h1>
+            <h1>About Me</h1>
+            <h1>Harrison Thomas</h1>
             <p>
-                Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-                mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-                porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-                semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-                rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+                I am a web developer from Austin, Texas. I specialize in using the MERN stack to create mobile-first, aesthetically principled and functional apps. I bring a multidisciplinary approach to programming with a professional background in restaurant management and an education in English. I am seeking a positions where I can improve both my leadership and programming skills in a fast-paced and challenging work environment.
+            </p>
+            <h3>Technologies:</h3>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>jQuery</li>
+                <li>React</li>
+            </ul>
+            <p>
+                My hobbies beyond work include reading, writing, watching films and fitness.
+            </p>
         </div>
     );
 }
