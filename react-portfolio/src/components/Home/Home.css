@@ -1,0 +1,11 @@
+.welcome {
+    padding-top: 10px;
+    justify-content: center;
+    display:flex;
+    font-family: 'Merriweather', serif; 
+    font-size: xx-large;
+}
+
+html, body {
+    height: 100%;
+}
