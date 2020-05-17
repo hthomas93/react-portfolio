@@ -2,8 +2,29 @@
     padding-top: 10px;
     justify-content: center;
     display:flex;
-    font-family: 'Merriweather', serif; 
+    font-family: 'Baskervville', serif;
     font-size: xx-large;
+}
+
+.home, .row {
+    height: 100vh;
+}
+
+img {
+    display: flex;
+    margin: auto;
+}
+
+.me {
+    margin: auto;
+}
+
+.black {
+    background-color: gray;
+    color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 html, body {

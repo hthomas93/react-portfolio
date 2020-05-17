@@ -3,12 +3,12 @@ import "./Home.css";
 
 function Home() {
     return (
-        <div>
+        <div className="home">
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-6 me">
                     <img src={require(`../../../src/meicon.png`)}></img>
                 </div>
-                <div className="col-md-8 welcome">
+                <div className="col-md-6 welcome black">
                     <h1>I'm your guy.</h1>
                 </div>
             </div>
