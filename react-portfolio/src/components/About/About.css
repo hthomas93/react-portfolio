@@ -2,3 +2,8 @@ img {
     height: auto;
     width: 200px;
 }
+
+.aboutRow {
+    background-image: none;
+    height: 100%;
+}
