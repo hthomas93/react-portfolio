@@ -6,7 +6,8 @@ function Home() {
         <div className="home">
             <div className="row">
                 <div className="col-md-6 me">
-                    <img src={require(`../../../src/meicon.png`)}></img>
+                    <h1 className="name">Harrison</h1>
+                    <h1 className="name">Thomas</h1>
                 </div>
                 <div className="col-md-6 welcome black">
                     <h1>I'm your guy.</h1>
