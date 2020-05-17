@@ -1,9 +1,31 @@
 img {
     height: auto;
-    width: 200px;
+    width: 450px;
 }
 
 .aboutRow {
     background-image: none;
     height: 100%;
+}
+
+.techRow {
+    height: 75px;
+}
+
+.aboutMe {
+    margin: auto;
+    background-color:gray;
+    color:white;
+}
+
+p {
+    padding:10px;
+}
+
+html, body {
+    font-family: 'Baskervville', serif; 
+}
+
+.myName {
+    text-align: center;
 }

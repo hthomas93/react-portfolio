@@ -25,7 +25,7 @@ img {
     color: white;
     width: 100%;
     font-family: 'Baskervville', serif;
-
+    padding-left: 65%;
 }
 
 .black {
@@ -46,3 +46,18 @@ html, body {
     background-size: cover;
     background-position: center;
 }
+
+.techRow {
+    background-image:none;
+    background-color:gray;
+    height: 200px;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        padding-left: 0;
+    }
+    .name {
+        padding-left: 0;
+    }
+  }
