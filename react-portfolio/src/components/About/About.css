@@ -8,18 +8,32 @@ img {
     height: 100%;
 }
 
+.about {
+    margin:0;
+}
+
 .techRow {
     height: 75px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
 }
 
 .aboutMe {
     margin: auto;
     background-color:gray;
-    color:white;
 }
 
 p {
     padding:10px;
+    color: white;
 }
 
 html, body {
@@ -28,4 +42,23 @@ html, body {
 
 .myName {
     text-align: center;
+}
+
+.img1, .img2 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url("../../images/les-routes-sans-fin-s-39tVosv5ECI-unsplash.jpg");
+    min-height: 400px;
+}
+
+.img2 {
+    background-image: url("../../images/luigi-pozzoli-Db8xEYwtdWw-unsplash.jpg");
+    min-height: 400px;
 }
