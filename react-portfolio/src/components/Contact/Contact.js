@@ -6,7 +6,8 @@ class Blog extends Component {
         this.state = {
             name: '',
             email: '',
-            message: ''
+            message: '',
+            sent: false
         }
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -23,9 +24,30 @@ class Blog extends Component {
         this.setState({ message: event.target.value })
     }
 
-    handleSubmit(event) {
-        event.preventDefault();
-        console.log(this.state);
+    handleSubmit(e) {
+        e.preventDefault();
+
+        fetch('http://localhost:3002/send', {
+            method: "POST",
+            body: JSON.stringify(this.state),
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+        }).then(
+            (response) => (response.json())
+        ).then((response) => {
+            if (response.status === 'success') {
+                alert("Message Sent.");
+                this.resetForm()
+            } else if (response.status === 'fail') {
+                alert("Message failed to send.")
+            }
+        })
+    }
+
+    resetForm() {
+        this.setState({ name: '', email: '', message: '' })
     }
 
     render() {
