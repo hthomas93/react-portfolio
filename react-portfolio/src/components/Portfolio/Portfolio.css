@@ -1,0 +1,19 @@
+.portfolio-entry {
+    background-image: none;
+    height: auto;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+.desc-block {
+    margin:auto;
+}
+
+.placeholder {
+    width: 200px;
+    height: 200px;
+}
+
+.description {
+    color: black;
+}

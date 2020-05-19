@@ -46,10 +46,12 @@ function About() {
             {/* Second parallax image */}
             <div className="img2"></div>
 
-            {/* Personal */}
-            <p>
-                My hobbies beyond work include reading, writing, watching films and fitness.
+            <div className="aboutMe">
+                {/* Personal */}
+                <p className="personal">
+                    My hobbies beyond work include reading, writing, watching films and fitness.
             </p>
+            </div>
         </div>
     );
 }

@@ -1,3 +1,7 @@
+.justMe {
+    border: 
+}
+
 img {
     height: auto;
     width: 450px;
@@ -34,6 +38,7 @@ img {
 p {
     padding:10px;
     color: white;
+    font-size: larger;
 }
 
 html, body {
@@ -54,11 +59,15 @@ html, body {
 }
 
 .img1 {
-    background-image: url("../../images/les-routes-sans-fin-s-39tVosv5ECI-unsplash.jpg");
+    background-image: url("../../images/luigi-pozzoli-Db8xEYwtdWw-unsplash.jpg");
     min-height: 400px;
 }
 
 .img2 {
-    background-image: url("../../images/luigi-pozzoli-Db8xEYwtdWw-unsplash.jpg");
+    background-image: url("../../images/xandro-vandewalle-z51bwxe0ylY-unsplash.jpg");
     min-height: 400px;
+}
+
+.personal {
+    margin: 0;
 }
