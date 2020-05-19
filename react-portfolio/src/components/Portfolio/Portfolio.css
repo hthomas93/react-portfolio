@@ -1,8 +1,15 @@
+h1 {
+    text-align:center;
+    margin-bottom: 45px;
+}
+
 .portfolio-entry {
     background-image: none;
     height: auto;
-    margin-bottom: 20px;
+    margin: 40px;
     padding: auto;
+    background-color:white;
+    font-size: large;
 }
 
 .desc-block {
@@ -16,4 +23,8 @@
 
 .description {
     color: black;
+}
+
+hr {
+    width: 75%;
 }
