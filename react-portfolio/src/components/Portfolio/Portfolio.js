@@ -8,10 +8,10 @@ function Blog() {
             {/* The BookUp */}
             <div className="portfolio-entry row">
                 <div className="col-md-4">
-                    <a href="https://placeholder.com"><img className="placeholder" src="https://via.placeholder.com/150"></img></a>
+                    <a href="https://the-bookup.herokuapp.com/"><img className="placeholder" src="https://via.placeholder.com/150"></img></a>
                 </div>
                 <div className="col-md-8 desc-block">
-                    <p className="description">.</p>
+                    <p className="description">The BookUp is a React app that allows users to upload used textbooks for sale to the website along with an asking price and their contact information. The seller enters information into the app and a GET request with the Google Books API return the information for the book. Prospective buyers can search the database by the book name or ISBN.</p>
                 </div>
             </div>
             {/* The Pack is Back */}
